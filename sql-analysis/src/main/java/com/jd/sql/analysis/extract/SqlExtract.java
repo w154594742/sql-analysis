@@ -196,7 +196,7 @@ public class SqlExtract {
             if (obj != null) {
                 value = obj.toString();
             } else {
-                value = "";
+                value = "NULL";
             }
         }
         return value;
